@@ -21,7 +21,6 @@
   "bugs": {
     "url": "http://github.com/pierrec/node-lz4/issues"
   },
-  "gypfile": true,
   "licenses": [
     {
       "type": "MIT",
@@ -52,7 +51,6 @@
   },
   "scripts": {
     "test": "mocha",
-    "install": "node-gyp rebuild",
     "prepublish": "./build.sh"
   }
 }
